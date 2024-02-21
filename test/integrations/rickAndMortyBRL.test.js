@@ -3,7 +3,6 @@ import fs from 'fs/promises'
 import Character from '../../src/entities/character'
 import RickAndMortyBRL from '../../src/business/integrations/rickAndMortyBRL'
 import axios from 'axios'
-import { warn } from 'console'
 
 describe('@RickAndMortyBRL', () => {
   beforeEach(() => {
